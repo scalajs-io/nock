@@ -1,6 +1,6 @@
 {
   "name": "nock-sjs",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "dependencies": {
     "nock": "^9.0.22",
