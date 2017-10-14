@@ -5,11 +5,9 @@ import sbt._
 
 import scala.language.postfixOps
 
-val scalaJsIOVersion = "0.4.1"
+val scalaJsIOVersion = "0.4.2"
 val apiVersion = scalaJsIOVersion
 val scalaJsVersion = "2.12.3"
-
-homepage := Some(url("https://github.com/scalajs-io/nock"))
 
 lazy val root = (project in file(".")).
   enablePlugins(ScalaJSPlugin).
@@ -17,6 +15,7 @@ lazy val root = (project in file(".")).
     name := "nock",
     organization := "io.scalajs.npm",
     description := "Nock API bindings for Scala.js",
+    homepage := Some(url("https://github.com/scalajs-io/nock")),
     version := apiVersion,
     scalaVersion := scalaJsVersion,
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-language:implicitConversions", "-Xlint"),
