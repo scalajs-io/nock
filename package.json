@@ -1,9 +1,9 @@
 {
   "name": "nock-sjs",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "private": true,
   "dependencies": {
-    "nock": "^9.0.22",
-    "source-map-support": "^0.4.14"
+    "nock": "^10.0.6",
+    "source-map-support": "^0.5.12"
   }
 }
